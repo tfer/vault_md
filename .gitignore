@@ -1,0 +1,4 @@
+.dendron.cache.json
+.dendron.port
+.dendron.ws
+dendron.yml

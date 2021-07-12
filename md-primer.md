@@ -1,6 +1,6 @@
 # **Basic Syntax | Markdown Guide**
 
- ![SVG image](assets\images\markdown-mark.svg "Large 'M' followed by downpointing arrow")
+ ![SVG_image](assets\images\markdown-mark.svg "Large 'M' followed by downpointing arrow")
 
 [Get Started](/getting-started/) [Cheat Sheet](/cheat-sheet/) [Basic Syntax](/basic-syntax/) [Extended Syntax](/extended-syntax/) [Tools](/tools/) [Book](/book/)
 
@@ -8,22 +8,13 @@
 
 The Markdown elements outlined in John Gruber's design document.
 
-((ref: [[md-primer.overview]]))
+![[md-primer.overview]]
 
-((ref: [[md-primer.headings]]))
+![[md-primer.headings]]
 
-((ref: [[md-primer.headings.alt_style]]))
+![[md-primer.headings.alt_style]]
 
-((ref: [[md-primer.headings.bp]]))
-
-## Paragraphs
-
-To create paragraphs, use a blank line to separate one or more lines of text.
-
-Markdown | HTML | Rendered Output
----------|------|---
-`I really like using Markdown.` | `<p>I really like using Markdown.</p>` | I really like using Markdown.
-`I think I'll use it to format all of my documents from now on.` | `<p>I think I'll use it to format all of my documents from now on.</p>` | I think I'll use it to format all of my documents from now on.
+![[md-primer.headings.bp]]
 
 ### Paragraph Best Practices
 
@@ -31,7 +22,7 @@ Unless the [paragraph is in a list](/basic-syntax/#paragraphs), don’t indent p
 
 ✅  Do this | ❌  Don't do this
 -------------|----
-`Don't put tabs or spaces in front of your paragraphs.` | &emsp;`This can result in unexpected formatting problems.` 
+`Don't put tabs or spaces in front of your paragraphs.` | `␣␣␣␣This can result in unexpected formatting problems.` 
 `Keep lines left-aligned like this.` | &nbsp;&nbsp;&nbsp;&nbsp;`Don't add tabs or spaces in front of paragraphs.`
 
 ## Line Breaks
@@ -40,7 +31,7 @@ To create a line break (`<br>`), end a line with two or more spaces, and then ty
 
 Markdown | HTML | Rendered Output
 ---------|------|---
-`This is the first line.··`<br>`And this is the second line.` | `<p>This is the first line.<br>And this is the second line.</p>` | <p>This is the first line.<br>And this is the second line.</p>
+`This is the first line.␣␣`<br>`And this is the second line.` | `<p>This is the first line.<br>And this is the second line.</p>` | <p>This is the first line.<br>And this is the second line.</p>
 
 ### Line Break Best Practices
 
