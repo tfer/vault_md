@@ -1,3 +1,10 @@
+---
+id: VkNBWSW90cGF8smJRYmXh
+title: Md Primer
+desc: ''
+updated: 1630444536593
+created: 1630444536593
+---
 # **Basic Syntax | Markdown Guide**
 
  ![SVG_image](assets\images\markdown-mark.svg "Large 'M' followed by downpointing arrow")
